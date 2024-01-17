@@ -1,0 +1,24 @@
+ROUTES
+
+all routes: /api
+
+Employees route: /employee
+1. list all employees: GET - / e.g. localhost:9000/api/employees?page_id=1&page_size=10
+2. list single employee: GET - /id
+3. create employee: POST - /
+4. delete all employees: GET - /id
+5. login an employee: POST - /login 
+   e.g. localhost:9000/api/employees/login
+      Parameters: ID of employee, generated token
+
+Visitors route: /visitors
+1. list all visitors: GET - /
+2. list single visitor: GET - /id
+3. create visitor: POST - /
+4. delete all visitors: GET - /id
+5. update/sign out visitor - PUT - /id
+
+Visit route: /visits
+1. list all visits: GET - /
+2. list single visit: GET - /id
+3. create visit: POST - /

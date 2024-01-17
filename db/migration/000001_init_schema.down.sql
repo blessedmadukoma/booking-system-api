@@ -1,0 +1,3 @@
+DROP TABlE IF EXISTS visits;
+DROP TABlE IF EXISTS visitors;
+DROP TABlE IF EXISTS employees;
